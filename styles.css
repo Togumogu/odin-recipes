@@ -9,6 +9,12 @@
     font-weight: bolder;
     text-align: center;
     color: black;
+    border: 2px solid blue;
+    padding: 8px;
+    display: block;
+    width: 350px;
+    margin: auto;
+    margin-bottom: 16px;
 }
 #h3 {
     background-color: aquamarine;
@@ -22,21 +28,33 @@
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    width: 600px;
+    width: 1000px;
     
 }
+.span {
+    background-color: aquamarine;
+    margin: 120px;
+}
+.box {
+    background-color: aquamarine;
+    padding: 16px;
+    margin: auto;
+    width: 1690px;
+}
 .links {
-    background-color: papayawhip;
-    border: none;
-    color: purple;
+    background-color: white;
+    border: 2px solid black;
+    color: blue;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display:inline-block;
+    display: inline-block;
     font-size: 16px;
     font-weight: 800;
-    margin: 4px 2px;
-    cursor: pointer;
+    box-sizing: border-box;
+    height: auto;
+    width: 300px;
+    margin-left: 16px;
 }
 .steps,
 .list,
